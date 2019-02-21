@@ -23,3 +23,6 @@ jenkins:
       EnvVars:
         TILLER_NAMESPACE: kube-system
 prow: {}
+mysql:
+  mysqlRootPassword: changeme 
+  mysqlDatabase: sample
